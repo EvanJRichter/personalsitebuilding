@@ -1,0 +1,47 @@
+body {
+	font-family: 'Calluna Sans', sans-serif;
+}
+
+p {
+	font-family: 'Calluna', serif;
+}
+
+.navbar {
+	border: 0px;  
+	background-color: #fff;
+}
+
+.navbar-header {
+	font-weight: bold;
+}
+
+.navbar-fixed-side .navbar-nav .dropdown-menu {
+	border-bottom: 0px;
+}
+
+.content {
+	margin: 50px;
+}
+
+.elem {
+	padding-bottom: 100px;
+}
+
+.im {
+	max-width: 100%; 
+	max-height: 80vh; 
+}
+
+#grad {
+	height: 100px;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	background: white; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1)); /*Safari 5.1-6*/
+	background: -o-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1)); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(rgba(255,255,255,0),rgba(2255,255,255,1)); /*Fx 3.6-15*/
+	background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1)); /*Standard*/
+}
+
