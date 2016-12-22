@@ -26,6 +26,12 @@ var app = angular.module('siteapp',['ngRoute']);
         .when('/resume', {
             templateUrl : 'partials/resume.html'
         })
+        .when('/article_quotes', {
+            templateUrl : 'partials/article_quotes.html'
+        })
+        .when('/article_planes', {
+            templateUrl : 'partials/article_planes.html'
+        })
         .otherwise({
             redirectTo: '/main'
         });
