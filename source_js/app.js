@@ -17,6 +17,10 @@ var app = angular.module('siteapp',['ngRoute']);
         .when('/artwork', { 
             templateUrl : 'partials/artwork.html'
         })
+        .when('/typography', { 
+            templateUrl : 'partials/typography.html',
+            controller: 'myTypographyController'
+        })
         .when('/videos', {
             templateUrl : 'partials/videos.html'
         })

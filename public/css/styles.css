@@ -21,6 +21,7 @@ p {
 
 .content {
 	margin: 50px;
+	overflow-wrap:break-word;
 }
 
 .elem {
@@ -43,5 +44,16 @@ p {
 	background: -o-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1)); /*Opera 11.1-12*/
 	background: -moz-linear-gradient(rgba(255,255,255,0),rgba(2255,255,255,1)); /*Fx 3.6-15*/
 	background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1)); /*Standard*/
+}
+
+@font-face {
+    font-family: HollywoodAnimeReboot;
+    src: url(../data/fonts/HollywoodAnimeReboot.ttf);
+}
+
+.myTypeExample {
+	font-size: 50px;
+	font-family: HollywoodAnimeReboot;
+	width: auto;
 }
 

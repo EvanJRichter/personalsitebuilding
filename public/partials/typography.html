@@ -1,0 +1,17 @@
+<div>
+	<form name="myForm" ng-controller="myTypographyController">
+		<h1 class="display-1">Typography</h1>
+<!-- 		<label>Single word:
+			<input type="text" name="input" ng-model="text" required ng-trim="false">
+		</label> -->
+		<!-- <div class="myTypeExample text-uppercase">{{gentext}}</div><br/> -->
+
+		<div class="myTypeExample text-uppercase">
+			<span ng-repeat="c in text.split('') track by $index" ng-mouseover="changeText(c)"> 
+				{{c}}
+			</span>
+		</div>
+
+	</form>
+</div>
+
